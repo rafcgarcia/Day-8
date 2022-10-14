@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+
+.text-columns{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+}
+
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 32%;
+    padding: 20px;
+}
+
+.column2{
+    float: left;
+    width: 48%;
+    padding: 15px;
+}
